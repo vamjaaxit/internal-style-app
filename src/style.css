@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    background-color: aqua;
+
+}
+#main
+{
+display: flex;
+flex-direction: row;
+}
+.content1
+{
+width: 45%;
+height: auto;
+background-color: yellow;
+color: red;
+margin: 2%;
+}
+.content1 p{
+    color: black;
+}
+.content2
+{
+width: 45%;
+height: auto;
+background-color: brown;
+margin: 2%;
+}
+hr{
+    width: 30%;
+    
+}
